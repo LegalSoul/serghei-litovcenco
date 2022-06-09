@@ -1,2 +1,2 @@
-# serghei-litovcenco-portofolio
-Portfolio website
+# Serghei Litovcenco Portofolio
+My Portfolio website
