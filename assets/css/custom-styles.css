@@ -6,6 +6,11 @@ section.darker {
 	background-color: #e2e4e9;	
 }
 
+section p, section ul {
+	/*text-align: left;*/
+	text-align: justify;
+}
+
 .swiper-wrapper {
 	align-items: center;
 }
