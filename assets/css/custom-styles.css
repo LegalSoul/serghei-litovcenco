@@ -231,3 +231,16 @@ p {
 a:hover {
 	color: #2477c4 !important;
 }
+
+
+
+
+
+/* MEDIA */
+@media screen and (orientation: portrait) {
+
+	.banner.style1.fullscreen .image {
+		height: 40vh;
+	}
+
+}
