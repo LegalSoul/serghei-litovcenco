@@ -89,6 +89,7 @@ function setupPhotoswipe(mainSwiper) {
 		/* ## Hiding a specific UI element ## */
 
 		close: true,
+		tapAction: 'close',
 		counter: !global_swiper_photoswipe_loop_setting,
 		arrowKeys: true,
 		/* ## Options ## */
