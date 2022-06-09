@@ -237,7 +237,7 @@ a:hover {
 
 
 /* MEDIA */
-@media screen and (orientation: portrait) {
+/*@media screen and (orientation: portrait) {
 
 	.banner.style1.fullscreen .image {
 		height: 40vh;
@@ -251,4 +251,18 @@ a:hover {
 		padding: 0.5rem 2rem 0.5rem 2rem;
 	}
 
-}
+}*/
+
+@media screen and (orientation: portrait) {
+
+	.banner.style1 {
+		-moz-flex-direction: column-reverse;
+		-webkit-flex-direction: column-reverse;
+		-ms-flex-direction: column-reverse;
+		flex-direction: column-reverse;
+		text-align: center;
+	}
+
+	.banner.style1 .content {
+		justify-content: flex-start;
+	}
