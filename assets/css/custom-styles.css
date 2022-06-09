@@ -237,10 +237,10 @@ a:hover {
 
 
 /* MEDIA */
-/*@media screen and (orientation: portrait) {
+@media screen and (orientation: portrait) {
 
 	.banner.style1.fullscreen .image {
-		height: 40vh;
+		height: 45vh;
 	}
 
 }
@@ -248,10 +248,10 @@ a:hover {
 @media screen and (max-width: 736px) {
 
 	.banner.style1 .content {
-		padding: 0.5rem 2rem 0.5rem 2rem;
+		padding: 1.5rem 2rem 0.5rem 2rem;
 	}
 
-}*/
+}
 
 @media screen and (orientation: portrait) {
 
